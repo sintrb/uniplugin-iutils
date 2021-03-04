@@ -1,0 +1,20 @@
+{
+    "name": "IUtils",
+    "id": "IUtils",
+    "version": "1.0.0",
+    "description": "IUtils",
+    "_dp_type":"nativeplugin",
+    "_dp_nativeplugin":{
+        "android": {
+            "plugins": [
+                {
+                    "type": "module",
+                    "name": "IUtilsModule",
+                    "class": "com.sin.uniplugin.iutils.IUtilsModule"
+                }
+            ],
+            "integrateType": "aar",
+            "minSdkVersion": 21
+        }
+    }
+}
